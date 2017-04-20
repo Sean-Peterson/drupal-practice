@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the blog_contacts feature.
+ */
+
+include_once 'blog_contacts.features.inc';
