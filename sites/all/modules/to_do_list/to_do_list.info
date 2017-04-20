@@ -1,0 +1,11 @@
+name = To-Do List
+description = Keep track of your to do's
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_to_do_item
+features[field_instance][] = node-to_do_list-field_to_do_item
+features[node][] = to_do_list
